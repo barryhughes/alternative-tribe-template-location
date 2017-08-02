@@ -12,4 +12,4 @@ That isn't always ideal, though, so this plugin adds support for a further locat
 
 ### Caveats
 
-It would be nice to support Event Tickets/Plus but, at time of writing, `Tribe__Tickets__Tickets::getTemplateHierarchy()` is not yet amenable to this.
+It would be nice to support Event Tickets/Plus but, at time of writing, `Tribe__Tickets__Tickets::getTemplateHierarchy()` is not yet amenable to this. So support is currently partial in this regard.

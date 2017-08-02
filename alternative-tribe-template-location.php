@@ -13,6 +13,7 @@ class Alternative_Tribe_Template_Location_Facilitator {
 	public function __construct() {
 		if ( $this->alternative_path() ) {
 			add_filter( 'tribe_events_template', array( $this, 'filter_template_paths' ) );
+			add_filter( 'tribe_tickets_template', array( $this, 'filter_template_paths' ) );
 		}
 	}
 
